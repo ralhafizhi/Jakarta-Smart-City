@@ -1,0 +1,8 @@
+{
+    "Banjir": 0,
+    "Jalan": 1,
+    "Parkir Liar": 2,
+    "Sampah": 3,
+    "Trotoar": 4,
+    "Vandalisme": 5
+}

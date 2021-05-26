@@ -1,0 +1,78 @@
+{% extends 'layout.html' %}
+
+{% block title %} Beranda {% endblock %}
+
+{% block body %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron"
+    style="width: 1347px; height: 450px; margin-left: 1pt; background-image: url({{url_for('static', filename='images/logo/jaki.jpg')}});">
+    <div class="container">
+
+        <h2 style="text-shadow: 0.5px 0px; color: aliceblue;">Image Recognition Pada Aplikasi JakLapor (JAKI) - Transfer
+            Learning</b>
+        </h2>
+        <h3>
+            <!-- <b style="text-align: justify; text-shadow: 0.5px 0px; color: aliceblue;">
+                Image Recognition Pada Aplikasi JakLapor (JAKI) - Transfer Learning
+            </b> -->
+        </h3>
+        </blockquote>
+        <a class="btn btn-primary btn-xm" href="#" role="button">Deep Learning Framework by -
+            <b>PyTorch</b></a>
+        </p>
+    </div>
+    <br>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Latar Belakang</h2>
+            <hr>
+            <p style="text-align: justify; font-size: large;">JAKI (Jakarta Kini) merupakan suatu aplikasi untuk dapat
+                mengoptimalkan
+                efisiensi dan efektivitas pelayanan masyarakat
+                di DKI Jakarta, khsusnya pada menu pelaporan masyarakat (JakLapor). Pelapor selalu berusaha untuk
+                memastikan
+                kategorisasi pelaporan sesuai dengan situasinya dan setiap hari pelapor (masyarakat) perlu
+                mengkategorisasikan secara
+                manual. Sehingga, diperlukan sistem pendeteksian gambar untuk meningkatkan efesiensi pencatatan dan
+                ketegorisasi pada
+                aplikasi tersebut.</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Rumusan Masalah</h2>
+            <hr>
+            <p>
+            <ul style="text-align: justify; font-size: large;">
+                <li>
+                    Bagaimana mengklasifikasikan atau memprediksi gambar menggunakan teknik transfer learning?
+                </li>
+                <li>
+                    Bagaimana pengaruh fine tuning hyperparameter pada fase freeze dan unfreeze dengan teknik transfer
+                    learning terhadap hasil akurasi dalam mengklasifikasikan beberapa kategori gambar yang berasal dari
+                    JakLapor?
+                </li>
+            </ul>
+            <p>
+        </div>
+        <div class="col-md-4">
+            <h2>Batasan Masalah</h2>
+            <hr>
+            <p>
+            <ul style="text-align: justify; font-size: large;">
+                <li>
+                    Kategori yang digunakan berjumlah 6, yaitu <i>banjir, vandalisme, parkir liar, sampah, trotoar,
+                    </i> dan <i>Jalan</i>
+                </li>
+                <li>
+                    poin ke-2
+                </li>
+            </ul>
+            <p>
+        </div>
+    </div>
+</div>
+{% include 'includes/footer.html' %}
+{% endblock %}
