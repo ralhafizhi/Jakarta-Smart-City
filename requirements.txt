@@ -1,2 +1,3 @@
 flask
 gunicorn>=20.0.4
+jcopdl==1.1.1
