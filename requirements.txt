@@ -5,4 +5,4 @@ jcopdl==1.1.1
 luwiji==1.1.2
 flask
 gunicorn>=20.0.4
-python==3.7.6
+python>=3.7.6
