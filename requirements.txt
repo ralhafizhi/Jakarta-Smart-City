@@ -1,3 +1,9 @@
--f https://download.pytorch.org/whl/torch_stable.html
-Flask
-gunicorn>=20.0.4
+https://download.pytorch.org/whl/cpu/torch-1.3.1%2Bcpu-cp37-cp37m-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.4.2%2Bcpu-cp37-cp37m-linux_x86_64.whl
+pip
+jcopml==1.1.7
+jcopdl==1.1.1
+flask
+gunicorn==20.0.4
+torch==1.8.1+cpu 
+torchvision==0.9.1+cpu
